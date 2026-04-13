@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     460579460788452353       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "JK Flipflop"      # Project title
+  wokwi_id:     461216020617183233      # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "4-2 Priority Encoder"      # Project title
   author:       "Cole Heiman"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Simple JK Flipflop, stores a signle bit of data" # One line description of what your project does
+  description:  "Simple Priority Encoder, taxes three inputs, displays 2 outputs and a voltage on output" # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,19 +16,19 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "J"
-  ui[1]: "K"
-  ui[2]: "Clk"
-  ui[3]: ""
+  ui[0]: "D1"
+  ui[1]: "D2"
+  ui[2]: "D3"
+  ui[3]: "Enable"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: "QBar"
-  uo[1]: "Q"
-  uo[2]: ""
+  uo[0]: "X"
+  uo[1]: "Y"
+  uo[2]: "V"
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
