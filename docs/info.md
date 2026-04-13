@@ -13,8 +13,8 @@ And gate, when on, led on, hooray!
 
 ## How to test
 
-Hook up two input signals, output to an led, complete the circuit.
+Hook up two input signals, output to leds, complete the circuit. And ensure clock signal is input (10 kHz or just signal to advance)
 
 ## External hardware
 
-1 Led
+2 Leds
